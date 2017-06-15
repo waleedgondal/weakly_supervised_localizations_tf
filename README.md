@@ -45,5 +45,5 @@ NIPS 2011
 ![alt tag](https://github.com/gondal1/weakly_localizations_tensorflow/blob/master/sample_images/grad_cam_crf.png)
 # Requirements
 - Python 3.5
-- Tensorflow v0.12 or greater
+- Tensorflow v0.12
 - Opencv2
