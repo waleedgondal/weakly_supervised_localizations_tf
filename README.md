@@ -6,7 +6,7 @@ Tensorflow Implementations of
 
 # Class Activation Maps
 
-[Class Activation Maps](http://cnnlocalization.csail.mit.edu/) provides a way of doing weakly supervised localization in Convolutional Neural Networks. This tensorflow Implementation is partly inspired by [this](https://github.com/jazzsaxmafia/Weakly_detector) approach. Results obtained on Imagenet dataset is given below.
+[Class Activation Maps](http://cnnlocalization.csail.mit.edu/) provides a way of doing weakly supervised localization in Convolutional Neural Networks. This tensorflow Implementation is partly inspired by [this](https://github.com/jazzsaxmafia/Weakly_detector) approach. Results obtained on Imagenet dataset are given below.
 
 _Note:_ The approach here uses the caffe weights provided by the [author](https://github.com/metalbubble/CAM). The weights are converted from caffe to tensorflow's compatible weights using [caffe-tensorflow](https://github.com/ethereon/caffe-tensorflow).
 - The model here uses VGG16 architecture.
@@ -22,7 +22,7 @@ _Note:_ The approach here uses the caffe weights provided by the [author](https:
 
 - They also use guided backpropagation to get the pixelspace visualizations of the output prediction.
 - The network architecture is VGG16.
-- The weights are here are also converted from Caffe to Tensorflow using [caffe-tensorflow](https://github.com/ethereon/caffe-tensorflow).
+- The weights are converted from Caffe to Tensorflow using [caffe-tensorflow](https://github.com/ethereon/caffe-tensorflow).
 - A link for the converted pretrained file weights will be provided soon.
 - If you use the code then kindly cite the respective [work](https://arxiv.org/abs/1611.07450)
 
