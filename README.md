@@ -28,7 +28,7 @@ _Note:_ The approach here uses the caffe weights provided by the [author](https:
 
 ![alt tag](https://github.com/gondal1/weakly_localizations_tensorflow/blob/master/sample_images/grad_cam.png)
 
-# Refining of results using Conditional Random Fields
+# Refining results using Conditional Random Fields
 [PyDenseCRF](https://github.com/lucasb-eyer/pydensecrf) is a python wrapper of Phillip Krähenbühl's dense (fully connected) CRFs with gaussian edge potentials.
 
 - For quick installation of the library
